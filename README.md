@@ -165,6 +165,8 @@ This app requires a **Langflow** instance running a RAG flow powered by IBM Gran
    langflow run
    # Langflow starts at http://localhost:7860
    ```
+2. Create a flow using all the IBM credentials
+   ![image alt](https://github.com/Codex-Amit/interview-trainer-chatbot/blob/main/Agent.png)
 
 2. In the Langflow UI, create a new flow using IBM Granite as your LLM with a RAG chain (document loader → vector store → retriever → chat model).
 
