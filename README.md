@@ -125,6 +125,8 @@ npm install
 
 ### 3. Configure environment variables
 
+Create a .env.local file.
+
 Copy the example file and fill in your values:
 
 ```bash
