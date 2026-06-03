@@ -149,8 +149,6 @@ LANGFLOW_API_KEY=your-langflow-api-key
 
 ```bash
 npm run dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
