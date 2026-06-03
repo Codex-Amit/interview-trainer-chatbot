@@ -179,29 +179,6 @@ This app requires a **Langflow** instance running a RAG flow powered by IBM Gran
 
 ---
 
-## 🌐 Deployment
-
-### Vercel (recommended)
-
-1. Push to GitHub.
-2. Import the repo in [Vercel](https://vercel.com/).
-3. Add environment variables in **Project Settings → Environment Variables**:
-   - `LANGFLOW_API_ENDPOINT`
-   - `LANGFLOW_API_KEY` (if required)
-4. Deploy.
-
-> Your Langflow backend must be publicly accessible from Vercel's servers. Use a cloud-deployed Langflow instance or a tunnel like [ngrok](https://ngrok.com/) for local testing.
-
-### Docker / Self-hosted
-
-```bash
-npm run build
-npm run start
-# App runs on port 3000 by default
-```
-
----
-
 ## 📋 Available Scripts
 
 | Command | Description |
